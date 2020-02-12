@@ -10,7 +10,7 @@ for folder in listing: #looping through different classes
     for videoname in os.listdir(data + str("/") + folder): 
         video = cv2.VideoCapture(data + str("/") + folder + "/" + videoname) #capturing video
         framerate = 1 #it will capture frames in every 1 second
-        index=50 #index is the n number of frames 
+        index=50 #inititalizing index as the number of frames we want
         os.makedirs("data_frames/" + folder+"/"+videoname.replace(".avi","")) #creating a folder to store frames of each video inside the class folder
         while(index>0):
             # Extract images
