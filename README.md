@@ -7,7 +7,7 @@ This scripts are not optimized. This is a mere collection of codes which I would
 ## Dependencies
 * Python 3.6 (or greater)
 
-**For frame extraction **
+**For frame extraction**
 * [OpenCV](https://opencv.org/releases/) --->> pip install opencv-python
 * [KTH Dataset used for demonstration](http://www.nada.kth.se/cvap/actions/)
 
